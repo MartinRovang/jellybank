@@ -1,3 +1,2 @@
-# jellbank
-Repo for the juicy jellybank
-jelly? 
+# norsent
+Sommerprosjekt -> https://norsent.herokuapp.com/
