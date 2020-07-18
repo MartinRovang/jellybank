@@ -202,7 +202,7 @@ strict-rfc3339==0.7
 subprocess32==3.5.4
 tblib==1.6.0
 tensorboard==1.9.0
-tensorflow==1.9.0
+tensorflow==1.15.2
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
