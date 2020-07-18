@@ -73,7 +73,7 @@ graphql-core==1.1
 grpcio==1.13.0
 h5py==2.10.0
 HeapDict==1.0.1
-httplib2==0.17.3
+httplib2==0.18.0
 idna==2.9
 imageio==2.8.0
 imageio-ffmpeg==0.4.2
