@@ -1,7 +1,5 @@
-
 from flask import Flask, flash, redirect, render_template, request, session, abort, make_response, send_file, jsonify, Response
 import json
-
 
 app = Flask(__name__)
 
