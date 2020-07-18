@@ -6,7 +6,6 @@ jinja2-time==0.2.0
 json5==0.9.5
 jsonref==0.2
 jsonschema==3.2.0
-matplotlib @ file:///C:/ci/matplotlib-base_1592406662306/work
 scipy==1.4.1
 Unidecode==1.0.22
 uritemplate==3.0.1
