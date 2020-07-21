@@ -1,13 +1,13 @@
 Jellybank
 
-<details open>
+<details>
 <summary>Developer website</summary>
 <br>
 https://jellybank-dev.herokuapp.com/
 </details>
 
 
-<details open>
+<details>
 <summary>Public/ Latest stable website</summary>
 <br>
 https://jellybank.herokuapp.com/
