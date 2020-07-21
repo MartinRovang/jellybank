@@ -1,4 +1,4 @@
-Jellybank
+# Welcome to the Jellybank project!
 
 <details>
 <summary>Developer website</summary>
