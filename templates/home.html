@@ -1,17 +1,20 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Flask Tutorial</title>
-  </head>
-  <body>
-    {% extends "template.html" %}
-    {% block content %}
+{% extends "base.html" %}
+{% block head %}
+    <h1>Jellybank</h1>
+{% endblock head %}
 
-    <h1> My First Try Using Flask </h1>
-    <p> Flask is Fun </p>
-    
-    {% endblock %}
+{% block body %}
+    <h2>Welcome to jellybank</h2>
+    <h3>Sign in</h3>
+    <label for="username">Username</label>
+    <input type="text", id='username', name='username'>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password">
 
-  </body>
-</html>
+    <h3>Create account</h3>
+    <label for="new_username">Username</label>
+    <input type="text", id='new_username', name='new_username'>
+    <label for="new_password">Password</label>
+    <input type="password" name="new_password" id="new_password">
+
+{% endblock body %}
