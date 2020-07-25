@@ -6,17 +6,20 @@
 {% block body %}
     <h2>Welcome to jellybank</h2>
     <h3>Sign in</h3>
-    <label for="username">Username</label>
-    <input type="text", id='username', name='username'>
-    <label for="password">Password</label>
-    <input type="password" name="password" id="password">
-    <input type="button" value="Log in">
+    <form action="/" method="get">
+        <label for="username">Username</label>
+        <input type="text", id='username', name='username'>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <input type="submit" value="Log in">
+    </form>
 
     <h3>Create account</h3>
-    <label for="new_username">Username</label>
-    <input type="text", id='new_username', name='new_username'>
-    <label for="new_password">Password</label>
-    <input type="password" name="new_password" id="new_password">
-    <input type="button" value="Create account">
-
-{% endblock body %}
+    <form action="/" method="post">
+        <label for="new_username">Username</label>
+        <input type="text", id='new_username', name='new_username'>
+        <label for="new_password">Password</label>
+        <input type="password" name="new_password" id="new_password">
+        <input type="submit" value="Create account">
+    </form>
+    {% endblock body %}
